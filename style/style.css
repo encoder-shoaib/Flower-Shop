@@ -1,0 +1,157 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* banner part  */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 97px;
+    background-color: #fceef1;
+}
+.banner-text{
+    max-width: 700px;
+} 
+.banner-text h1{
+    font-size:80px;
+}
+.banner-text p{
+    font-size: 18px;
+    width: 634px;
+    margin-top: 32px;
+    color: #272727;
+}
+.banner-text button{
+    margin-top: 32px;
+    border-radius: 8px;
+    border: none;
+    padding:20px  43px ;
+    background-color: #E55473;
+}
+.banner-img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Featured flowers */
+.Featured-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.featured-text{
+    text-align: center;
+    margin-top: 178px;
+}
+.featured-text h1{
+    font-size: 140;
+}
+.featured-text p{
+    max-width: 520px;
+    margin-top: 24px;
+    font-size: 18;
+}
+.featured-img{
+    display: flex;
+    margin-top: 48px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 48px;
+    gap: 24px;
+}
+.featured-img div{
+    border-radius: 50%/ 2%;
+    padding: 20px;
+    padding: 20px;
+    background-color: #fceef1;
+}
+.featured-img div img{
+    height: 428px;
+    width: 310px;
+}
+
+
+.delevary-process-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 128px;
+}
+
+.delevary-process{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: #f4f4f4;
+    padding: 86px 175px;
+    border: none;
+    border-radius: 8px;
+}
+.process{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.process img{
+    height: 88px;
+    width: 88px;
+    margin-bottom: 24px;
+}
+
+
+#banner-2{
+    margin-top: 128px;
+    padding: 80px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+#banner-2-text{
+    text-align: center;
+}
+#banner-2-h1{
+    font-size: 40px;
+}
+.off{
+    color: #E55473;
+}
+
+
+/* Instagram-container */
+
+.Instagram-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Instagram-text{
+    text-align: center;
+    margin-top: 178px;
+}
+.Instagram-img{
+    display: flex;
+    margin-top: 48px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 48px;
+    gap: 24px;
+}
+.Instagram-text h1{
+    font-size: 40px;
+}
+.Instagram-text p{
+    max-width: 520px;
+    margin-top: 24px;
+    font-size: 18;
+}
+.Instagram-imgdiv img{
+    height: 428px;
+    width: 310px;
+}
