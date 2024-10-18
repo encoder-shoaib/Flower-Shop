@@ -13,6 +13,8 @@
     align-items: center;
     gap: 97px;
     background-color: #fceef1;
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+
 }
 .banner-text{
     max-width: 700px;
@@ -33,9 +35,9 @@
     padding:20px  43px ;
     background-color: #E55473;
 }
-.banner-img{
-    max-width: 100%;
-    height: auto;
+
+.banner-img{ 
+    width: auto;
 }
 
 
@@ -67,14 +69,17 @@
     gap: 24px;
 }
 .featured-img div{
-    border-radius: 50%/ 2%;
+    border-radius: 100%/ 5%;
     padding: 20px;
     padding: 20px;
     background-color: #fceef1;
 }
+.featured-img div{
+    max-width: 330px;
+}
 .featured-img div img{
     height: 428px;
-    width: 310px;
+    width: 100%;
 }
 
 
@@ -108,6 +113,7 @@
 
 
 #banner-2{
+    height: 50vh;
     margin-top: 128px;
     padding: 80px;
     background-color: rgba(229, 84, 115, 0.05);
@@ -151,7 +157,94 @@
     margin-top: 24px;
     font-size: 18;
 }
-.Instagram-imgdiv img{
+.Instagram-img img{
     height: 428px;
-    width: 310px;
+    width: 100%;
+}
+
+.latest-deals-section-top{
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+.latest-deals-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('../Flower Asset/Rectangle 9.png'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    max-width: 1390px;
+    height: 35vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.deals-text h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.deals-text p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.latest-deals-button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text-button {
+    height: 64px;
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.submit-button {
+    height: 64px;
+    width: 150px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button:hover {
+    background-color: #d62c1a;
+}
+
+/* footer  */
+.footer-section{
+    text-align: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 35vh;
+}
+.footer-section h1{
+    color: white;
+}
+.footer-section p{
+    color: white;
+    font-size: 18px;
+    margin-top: 24px;
+
+}
+.Flower{
+    color: #E55473;
 }
